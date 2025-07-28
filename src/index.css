@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-color: #f0f2f5;
+}
+
+button:focus-visible {
+  outline: 3px solid #2563eb;
+}
+
+[tabindex="0"]:focus-visible {
+  outline: 3px solid #1d4ed8;
+  border-radius: 8px;
+}
